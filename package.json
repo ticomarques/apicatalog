@@ -9,7 +9,7 @@
     "production":"node index.js"
   },
   "engines": {
-    "node": "18.x"
+    "node": "16.x"
   },
   "keywords": [],
   "author": "",
