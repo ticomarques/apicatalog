@@ -77,14 +77,24 @@ const data = [
   ];
 
 app.get('/products', function (req, res) {
-    res.send(data)
+    res
+        .status(200)
+        .send(data)
+        .end();
+        
 })
 app.get('/products/:id', function (req, res) {
      const result = data.filter((item) => { return item.id === req.params.id})
-     res.send(result)
+     res
+        .status(200)
+        .send(result)
+        .end();
  })
  app.get('/categories', function (req, res) {
-    res.send(categories)
+    res
+        .status(200)
+        .send(categories)
+        .end();
 })
 
 var server = app.listen(5001, function () {
