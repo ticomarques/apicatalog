@@ -87,7 +87,7 @@ app.get('/products/:id', function (req, res) {
     res.send(categories)
 })
 
-var server = app.listen(9000, function () {
+var server = app.listen(5001, function () {
    var host = server.address().address
    var port = server.address().port
    console.log(`Example app listening at http://${host}:${port}`, host, port)
