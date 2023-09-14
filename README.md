@@ -1,5 +1,6 @@
 # Catalog API
 Esta é um API free, a qual fornece dados para construção de uma loja virtual.
+API de uso livre.
 
 
 
