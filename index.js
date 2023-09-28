@@ -28,7 +28,7 @@ const data = [
       "name": "GHOST® Cereal Milk",
       "details": "GHOST Vegan Protein combines a premium, fully disclosed vegan protein blend with industry-leading flavors...what more could you ask for?",
       "price": "$49.99",
-      "image": "images/wheyCerealMilk.png"
+      "image": "images/WheyCerealMilk.png"
     },
     {
       "id": "ghost-whey-cinnabon",
